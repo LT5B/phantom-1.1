@@ -8,6 +8,5 @@ echo "Running installer..."
 cd $HOME/phantom
 sudo ./Configure
 echo "Cleaning..."
-cd ..
 rm $HOME/phantom-1.1.txz
 rm -rf phantom
