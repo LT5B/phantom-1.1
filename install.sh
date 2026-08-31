@@ -9,4 +9,4 @@ cd $HOME/phantom
 sudo ./Configure
 echo "Cleaning..."
 rm $HOME/phantom-1.1.txz
-rm -rf phantom
+rm -rf $HOME/phantom
