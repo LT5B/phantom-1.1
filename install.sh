@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Downloading txz file..."
+echo "Downloading tar.gz file..."
 curl -s -L -o "https://raw.githubusercontent.com/LT5B/phantom-1.1/refs/heads/main/phantom-1.1.txz" "$HOME/phantom-1.1.tar.gz"
 echo "Decompressing file..."
 tar zxf $HOME/phantom-1.1.tar.gz
